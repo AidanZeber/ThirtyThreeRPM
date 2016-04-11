@@ -1,9 +1,10 @@
 <h1>Enter Your Album Details</h1>
-<%= simple_form_for @quote do |f| %>
+<%= simple_form_for @album do |f| %>
   <%= f.input :title %>
   <%= f.input :artist %>
   <%= f.input :year %>
   <%= f.input :genre %>
   <%= f.input :description %>
+  <br />
   <%= f.submit 'Add', class: 'btn btn-danger' %>
 <% end %>

@@ -55,5 +55,5 @@ ThirtyThreeRPM::Application.routes.draw do
   #   end
   root 'albums#index'
 
-  resources :quotes
+  resources :albums
 end
